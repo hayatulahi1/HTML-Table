@@ -98,11 +98,19 @@ hr {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    border: white;
+    
 }
 .btn21 {
-    text-decoration: dotted;
+    text-decoration: underline;
+    text-decoration-style: dotted;
     font-size: 20px;
     color: white;
+    padding-left: 10px;
+}
+.btn21:hover {
+    color: yellow;
+    text-decoration: none;
 }
 .h1 {
     color: white;
@@ -111,7 +119,6 @@ hr {
 .p3 {
     color: white;
     font-size: 29px;
-    
 }
 .p4 {
     font-size: 20px;
@@ -156,4 +163,24 @@ form {
     width: 200px;
     height: 50px;
     font-size: 20px;
+}
+.p7 {
+    color: white;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.d4 {
+    display: flex;
+    justify-content: space-between;
+}
+.btn4 {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-size: 20px;
+    padding-right: 400px;
+    color: #ffda70;
+    margin-top: 20px;
+}
+.btn4:hover {
+    color: yellow;
 }
