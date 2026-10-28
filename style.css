@@ -1,0 +1,159 @@
+body {
+    background-color: #201313;
+    padding: 0px;
+    margin: 0px;
+}
+.d1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #201313;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    align-items: center;
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+h1 {
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    margin: 0px;
+    font-size: 30px;
+}
+.n {
+    display: flexbox;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn1 {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.b1 {
+    background-color: #e03131;
+    border-radius: 50px;
+    height: 45px;
+    width: 200px;
+}
+.bt1 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+article {
+    padding-left: 200px;
+    padding-top: 60px;
+}
+.p1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.p2 {
+    color: white;
+    font-size: 30px;
+}
+.in {
+    color: #ffda70;
+}
+hr {
+    border: none;
+    border-top: 1px solid #aaa;
+    width: 80%;
+    margin-left: 0%;
+}
+.d2 {
+    padding-top: 20px;
+}
+.ola1 {
+    border-radius: 50px;
+    background-color: #ffc726;
+    width: 150px;
+    height: 50px;
+}
+.btn20 {
+    text-decoration: none;
+    color: #201313;
+    font-size: 20px;
+    font-weight: bold;
+}
+.ola {
+    border-radius: 50px;
+    background-color: #201313;
+    width: 150px;
+    height: 50px;
+}
+.ola:hover{
+    background-color: rgb(87, 81, 61);
+    cursor: pointer;
+}
+.btn2 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn21 {
+    text-decoration: dotted;
+    font-size: 20px;
+    color: white;
+}
+.h1 {
+    color: white;
+    font-size: 30px;
+}
+.p3 {
+    color: white;
+    font-size: 29px;
+    
+}
+.p4 {
+    font-size: 20px;
+    color: white;
+}
+.btn3 {
+    color: #ffda70;
+}
+.p5 {
+    font-size: 20px;
+    color: white;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #2f1c1c;
+    width: 1000px;
+    height: 300px;
+}
+.d3 {
+    padding-left: 60px;
+}
+.p6 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.e {
+    font-size: 30px;
+    color: white;
+}
+.email {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 600px;
+}
+.submit {
+    background-color: #e03131;
+    color: white;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
