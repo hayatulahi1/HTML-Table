@@ -153,6 +153,7 @@ form {
     border: none;
     border-bottom: 1px solid white;
     width: 600px;
+    color: white;
 }
 .submit {
     background-color: #e03131;
