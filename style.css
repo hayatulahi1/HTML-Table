@@ -1,14 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background-color: #201313;
-    padding: 0px;
-    margin: 0px;
+    box-sizing: border-box;
 }
+/* first div */
 .d1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-top: 20px;
     background-color: #201313;
-    margin-top: 20px;
     padding-right: 50px;
     padding-left: 50px;
     align-items: center;
@@ -17,88 +21,110 @@ body {
     top: 0;
     z-index: 1000;
 }
+/* header */
 h1 {
-    justify-content: center;
-    gap: 30px;
     color: white;
-    margin: 0px;
     font-size: 30px;
 }
-.n {
-    display: flexbox;
-    font-size: 20px;
-    font-weight: bold;
+/* navigation */
+.n1 {
+    display: flex;
+    gap: 15px;
 }
+/* nav texts */
 .btn1 {
+    gap: 10px;
     text-decoration: none;
     color: white;
     font-size: 15px;
+    gap: 10px;
 }
-.b1 {
-    background-color: #e03131;
-    border-radius: 50px;
-    height: 45px;
-    width: 200px;
-}
+/* lat get started */
 .bt1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e03131;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
 }
+.bt1:hover {
+    outline: 2px solid #e03131;
+    outline-offset: 3px;
+    outline-width: 3px;
+}
+/* article spacing */
 article {
     padding-left: 200px;
-    padding-top: 60px;
+    padding-top: 100px;
+    padding-right: 130px;
 }
+/* first paragraph */
 .p1 {
     color: white;
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 5px;
 }
+/* second paragraph */
 .p2 {
     color: white;
     font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 25px;
 }
+/* paragraph 2 thoughtbot color  */
 .in {
     color: #ffda70;
 }
+.in:hover {
+    color: #ffc726;
+}
+/* hr line */
 hr {
     border: none;
     border-top: 1px solid #aaa;
     width: 80%;
-    margin-left: 0%;
+    margin-bottom: 30px;
 }
 .d2 {
-    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
-.ola1 {
-    border-radius: 50px;
-    background-color: #ffc726;
+/* all topic design */
+.btn20 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 50px;
-}
-.btn20 {
+    background-color: #ffc726;
+    border-radius: 50px;
     text-decoration: none;
     color: #201313;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
-.ola {
-    border-radius: 50px;
-    background-color: #201313;
+/* design, development,product design */
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 150px;
     height: 50px;
-}
-.ola:hover{
-    background-color: rgb(87, 81, 61);
-    cursor: pointer;
-}
-.btn2 {
+    outline: 1px solid white;
+    border-radius: 50px;
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-weight: bold;
 }
+/* more topic design */
 .btn21 {
     text-decoration: underline;
     text-decoration-style: dotted;
@@ -110,76 +136,146 @@ hr {
     color: yellow;
     text-decoration: none;
 }
+/* p spacing */
+.divd {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+    ;
+} 
+/* who is reading the code */
 .h1 {
     color: white;
     font-size: 30px;
 }
+/* p1 article */
 .p3 {
     color: white;
     font-size: 29px;
 }
+/* p2 article */
 .p4 {
     font-size: 20px;
     color: white;
 }
+/* Ran Craycraft */
 .btn3 {
     color: #ffda70;
 }
+.btn3:hover {
+    color: #ffc726;
+}
+/* p3 */
 .p5 {
     font-size: 20px;
     color: white;
 }
+/* email form background */
 form {
     display: flex;
     flex-direction: column;
     background-color: #2f1c1c;
     width: 1000px;
-    height: 300px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
+/* email form */
 .d3 {
     padding-left: 60px;
 }
+/* p1 email */
 .p6 {
     color: white;
     font-size: 60px;
     margin-bottom: 10px;
 }
+/* your email adress text */
 .e {
     font-size: 30px;
     color: white;
 }
+/* mail fill box */
 .email {
     background: transparent;
     border: none;
+    outline: none;
     border-bottom: 1px solid white;
-    width: 600px;
+    width: 700px;
+    margin: 0px;
+    padding: 0px;
     color: white;
 }
-.submit {
-    background-color: #e03131;
+/* email div */
+.dd {
+    display: flex;
+    justify-content: center;
+}
+/* submit button */
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    border-radius: 50px;
-    width: 200px;
-    height: 50px;
+    text-decoration: none;
     font-size: 20px;
+    background-color: #e03131;
+    border-radius: 50px;
+    display: flex;
+    height: 50px;
+    width: 150px;
 }
+/* after email div */
+.d4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* looking for way to connect */
 .p7 {
     color: white;
     font-size: 20px;
     padding-left: 60px;
 }
-.d4 {
-    display: flex;
-    justify-content: space-between;
-}
 .btn4 {
     text-decoration: underline;
     text-decoration-style: dotted;
     font-size: 20px;
-    padding-right: 400px;
+    padding-right: 290px;
     color: #ffda70;
     margin-top: 20px;
 }
 .btn4:hover {
+    color: yellow;
+}
+/* for the second border */
+.hh {
+    margin-top: 30px;
+    border-color: #2f1c1c;
+}
+/* for the design system in ai */
+.p8 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.p8:hover {
+    color: yellow;
+}
+.p9 {
+    color: white;
+    font-size: 27px;
+}
+.p10 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.aa1 {
+    color: #ffc726;
+}
+.aa1:hover {
     color: yellow;
 }
